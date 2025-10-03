@@ -111,7 +111,7 @@ showing the agent reliably solved the task in nearly all episodes.
 
 Below is an animation of the trained PPO agent in the **clean environment (PandaReach-v3)**:  
 
-<video src="Video/anim_trained_clean.mp4" autoplay loop muted playsinline width="480"></video>
+![Trained PPO Agent - Clean](Animations/anim_trained_clean.gif)
 
 As can be seen, the PPO algorithm successfully completed the **PandaReach-v3** task: the agent reached maximum success (1.0) in about **1 million steps**.
 
@@ -157,7 +157,7 @@ demonstrating robustness of PPO to added uncertainty.
 
 Below is an animation of the trained PPO agent in the **uncertainty environment (PandaReach-v3 with noise)**:  
 
-<video src="Video/anim_trained_uncertain.mp4" autoplay loop muted playsinline width="480"></video>
+![Trained PPO Agent - Uncertainty](Animations/anim_trained_uncertainty.gif)
 
 As can be seen, even under noisy observations and actions,  
 the PPO algorithm consistently solved the task and reached **100% success**.
